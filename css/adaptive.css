@@ -1,0 +1,332 @@
+@media (max-width: 1440px) {
+	.header__top {
+		margin-bottom: 70px;
+	}
+}
+
+
+@media (max-width: 1000px) {
+	.healing__slide .when__acive p:last-child, .program__slide .when__acive p:last-child {
+		display: none;
+	}
+	.healing__slide .when__acive .slide_head, .program__slide .when__acive .slide_head {
+		padding: 0;
+	}
+	.our__work_item:after {
+		width: 0;
+		height: 0;
+	}
+}
+@media (max-width: 960px) {
+	.calendar__preview {
+		justify-content: space-around;
+	}
+	.calendar {
+		height: auto;
+	}
+}
+
+@media (max-width: 900px) {
+	.about__center_lists {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 850px) {
+	.price__table_price {
+		flex-grow: 1;
+		padding-left: 30px;
+		text-align: center;
+	}
+	.price__table_service {
+		flex-grow: 1;
+	}
+	.price__table_under_row a {
+		margin-left: 30px;
+	}
+}
+
+@media (max-width: 800px) {
+	.what_is_yogatour {
+		height: auto;
+	}
+	.yogatour__offer {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.yogatour_img {
+		padding: 0;
+	}
+	.yogatour_text h2 {
+		text-align: center;
+	}
+	.yogatour_icons {
+		display: flex;
+    	justify-content: space-between;
+	}
+	.price__offer ul {
+		padding-left: 40px;
+	}
+	.price__table {
+		height: auto;
+	}
+	.price__table_row {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 780px) {
+	.about__center:before {
+		width: 100%;
+	}
+	.reviews__slider .slick-prev, .reviews__slider .slick-next {
+		display: none !important;
+	}
+	.our__work_preview {
+		flex-wrap: wrap;
+	}
+	.our__work_item {
+		flex-basis: 26%;
+		margin-bottom: 20px;
+	}
+	
+}
+
+@media (max-width: 740px) {
+	.header__offer h1 {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 700px) {
+	.reasons {
+		height: auto;
+	}
+	.first_line_reasons, .second_line_reasons {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	
+}
+
+@media (max-width: 670px) {
+	.about__center {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		padding: 0;
+	}
+	.about__center_gallery {
+		margin: 0;
+	}
+	.about__center_descr {
+		margin: 0;
+	}
+	.masters__photo .masters__photowrapper {
+		display: none;
+	}
+	.masters__bg_wrapper {
+		bottom: 0;
+	}
+	section.contacts {
+		height: auto;
+	}
+	.contacts__office_maps {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.contacts__office_maps div {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.contacts__info {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.contacts__social {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	footer {
+		height: auto;
+	}
+	.footer__offer {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.footer__contacts {
+		text-align: center;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	.healing__bg_wrapper,.program__bg_wrapper {
+		height: 300px;
+	}
+	
+}
+@media (max-width: 550px) {
+	.healing__gallery .slide_first, .healing__gallery .slide_third, .program__gallery .slide_first, .program__gallery .slide_third {
+		display: none;
+	}
+	.healing__gallery .slide_second, .program__gallery .slide_second {
+		margin: 0 auto;
+		flex-basis: 80%;
+	}
+	.garant__preview {
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.garant__item {
+		flex-basis: 45%;
+	}
+	.header__offer_about {
+		margin: 20px 0;
+	}
+	.header__offer_loc {
+		margin-bottom: 40px;
+	}
+
+}
+@media (max-width: 500px) {
+	.yogatour_icons {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.about__preview_item {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.about__preview_item img {
+		margin: 0 0 20px;
+	}
+	.about__preview_item p {
+		text-align: center;
+	}
+	.about__center_gallery {
+		justify-content: space-around;
+	}
+	.reviews__item_wrapper {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.reviews__slider_img {
+		margin: 0 0 20px;
+	}
+	.reviews__slider_text {
+		text-align: center;
+	}
+	.advantage__item {
+		flex-basis: 45%;
+	}
+	.our__work_item {
+		flex-basis: 45%;
+	}
+	.price__table_under_row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+	}
+	.price__table_under_row a {
+		margin-top: 20px;
+	}
+	.price__table_row {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+	}
+	.price__table_service {
+		margin-bottom: 20px;
+	}
+	.price__table_price {
+		padding-left: 0;
+	}
+	.price__table_under_row a {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 400px) {
+	.advantage__item {
+		flex-basis: 100%;
+	}
+	.our__work_item {
+		flex-basis: 100%;
+	}
+}
+
+@media (max-width: 374px) {
+	.header__top {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	
+	.header__offer a {
+		padding: 20px 50px;
+	}
+	.garant__preview {
+		justify-content: center;
+	}
+	.garant__item {
+		flex-basis: 80%;	
+	}
+	
+	
+}
+@media (max-width: 350px) {
+	.healing__gallery .slide_second, .program__gallery .slide_second {
+		flex-basis: 90%;
+	}
+	.about__center_gallery img {
+		flex-basis: 51%;
+	}
+	.about__center_gallery {
+		justify-content: center;
+	}
+}
